@@ -20,11 +20,11 @@ with col1:
         st.write(f"Percobaan: {st.session_state.guess}")
 
         if user_input < st.session_state.secret:
-            st.info("Angka terlalu kecil! ")
+            st.info("📉 Kekecilan bro! ")
         elif user_input > st.session_state.secret:
-            st.warning("Angka terlalu besar! ")
+            st.warning("📈 Kegedean bro! ")
         else:
-            st.success(f"Selamat! anda berhasil menebak angka rahasia {st.session_state.secret} dalam { st.session_state.guess} percobaan")
+            st.success(f"🎉 Selamat! anda berhasil menebak angka rahasia {st.session_state.secret} dalam { st.session_state.guess} percobaan")
         st.divider()
     #Reset game
 with col2:
