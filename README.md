@@ -10,6 +10,10 @@ Project ini dibuat sebagai latihan logika pemrograman, state management (`sessio
 
 👉 https://tebak-angka-bekiii.streamlit.app/
 
+---
+
+## 🖥️ Screenshoot(dekstop)
+
 <img width="1342" height="906" alt="Screenshot 2026-06-13 232149" src="https://github.com/user-attachments/assets/7374853a-437d-4a35-9634-17aa0526f9fc" />
 <img width="1345" height="904" alt="Screenshot 2026-06-13 232249" src="https://github.com/user-attachments/assets/9c2c9bc5-4ef5-4c2e-91f9-7009e9aafc2b" />
 
