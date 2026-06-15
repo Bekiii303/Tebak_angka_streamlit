@@ -9,9 +9,10 @@ if "guess" not in st.session_state:
     st.session_state.guess = 0
 
 st.title("Selamat datang di game tebak angka (1-100) ")
+
 #User input
 user_input = st.number_input("Tebak angka: ", step=1)
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 #Logic
 with col1:
@@ -34,3 +35,8 @@ with col2:
         st.session_state.guess = 0
         st.info("Game baru dimulai! ")
         st.divider()
+
+#update selasa
+with col3:
+
+
