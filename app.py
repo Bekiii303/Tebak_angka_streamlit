@@ -9,7 +9,7 @@ if "guess" not in st.session_state:
     st.session_state.guess = 0
 
 st.title("Selamat datang di game tebak angka (1-100) ")
-
+#User input
 user_input = st.number_input("Tebak angka: ", step=1)
 col1, col2 = st.columns(2)
 
@@ -26,7 +26,8 @@ with col1:
         else:
             st.success(f"🎉 Selamat! anda berhasil menebak angka rahasia {st.session_state.secret} dalam { st.session_state.guess} percobaan")
         st.divider()
-    #Reset game
+
+#Reset game
 with col2:
     if st.button("Reset game"):
         st.session_state.secret = random.randint(1, 100)
