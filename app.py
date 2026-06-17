@@ -3,12 +3,12 @@ import random
 
 #Session
 if "secret" not in st.session_state:
-    st.session_state.secret = random.randint(1, 100)
+    st.session_state.secret = random.randint(1, 200)
 
 if "guess" not in st.session_state:
     st.session_state.guess = 0
 
-st.title("Selamat datang di game tebak angka (1-100) ")
+st.title("Selamat datang di game tebak angka (1-200) ")
 
 #User input
 user_input = st.number_input("Tebak angka: ", step=1)
@@ -31,7 +31,7 @@ with col1:
 #Reset game
 with col2:
     if st.button("Reset game"):
-        st.session_state.secret = random.randint(1, 100)
+        st.session_state.secret = random.randint(1, 200)
         st.session_state.guess = 0
         st.info("Game baru dimulai! ")
         st.divider()
