@@ -12,7 +12,7 @@ st.title("Selamat datang di game tebak angka (1-100) ")
 
 #User input
 user_input = st.number_input("Tebak angka: ", step=1)
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 
 #Logic
 with col1:
@@ -37,6 +37,5 @@ with col2:
         st.divider()
 
 #update selasa
-with col3:
 
 
